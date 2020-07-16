@@ -1,0 +1,105 @@
+﻿<Properties StartupConfiguration="{E9938A5D-AEDE-49E6-A2AC-FBB539DBFE15}|Default">
+  <MonoDevelop.Ide.ItemProperties.onlinestore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Models/OrderDetail.cs">
+    <Files>
+      <File FileName="Data/Infrastructures/OnlineStoreDbContext.cs" Line="160" Column="34" />
+      <File FileName="admin/Properties/launchSettings.json" />
+      <File FileName="admin/Controllers/DashboardController.cs" />
+      <File FileName="admin/Startup.cs" />
+      <File FileName="admin/Views/Shared/_Layout.cshtml" />
+      <File FileName="admin/Program.cs" />
+      <File FileName="admin/Controllers/LoginController.cs" />
+      <File FileName="admin/Views/Login/LoginPage.cshtml" />
+      <File FileName="admin/Views/Shared/_LayoutLoginPage.cshtml" />
+      <File FileName="admin/Views/_ViewStart.cshtml" />
+      <File FileName="admin/wwwroot/css/login.css" />
+      <File FileName="admin/wwwroot/css/site.css" />
+      <File FileName="Services/IServices/IShoeService.cs" />
+      <File FileName="Services/IServices/IStoreService.cs" />
+      <File FileName="Data/Infrastructures/IDbFactory.cs" />
+      <File FileName="admin/Models/ErrorViewModel.cs" />
+      <File FileName="admin/wwwroot/css/dashboard.css" />
+      <File FileName="admin/wwwroot/js/dashboard.js" />
+      <File FileName="admin/wwwroot/js/site.js" />
+      <File FileName="admin/Views/Dashboard/Employees.cshtml" />
+      <File FileName="Services/Services/RoleService.cs" />
+      <File FileName="Data/Models/User.cs" Line="14" Column="38" />
+      <File FileName="admin/Views/Dashboard/EmployeeDetail.cshtml" />
+      <File FileName="admin/ViewModels/UserViewModel.cs" />
+      <File FileName="Data/Models/Store.cs" />
+      <File FileName="admin/Views/Dashboard/SucessNotify.cshtml" />
+      <File FileName="Data/Infrastructures/IUnitOfWork.cs" />
+      <File FileName="Data/Infrastructures/IRepositoryBase.cs" />
+      <File FileName="Data/Infrastructures/RepositoryBase.cs" />
+      <File FileName="Data/Models/Role.cs" />
+      <File FileName="onlinestore/Controllers/RolesController.cs" />
+      <File FileName="admin/Views/Product/Products.cshtml" />
+      <File FileName="admin/Controllers/ProductController.cs" />
+      <File FileName="admin/Views/Dashboard/CreateNewUser.cshtml" />
+      <File FileName="onlinestore/Startup.cs" Line="1" Column="1" />
+      <File FileName="onlinestore/Properties/launchSettings.json" Line="25" Column="48" />
+      <File FileName="onlinestore/Program.cs" Line="6" Column="36" />
+      <File FileName="Data/Infrastructures/Disposable.cs" />
+      <File FileName="Data/Infrastructures/IRepositories/IStoreRepository.cs" />
+      <File FileName="Data/Infrastructures/Repositories/OrderDetailRepository.cs" />
+      <File FileName="Data/Infrastructures/Repositories/StoreRepository.cs" />
+      <File FileName="Services/IServices/IRoleService.cs" />
+      <File FileName="Data/Models/Shoe.cs" Line="1" Column="1" />
+      <File FileName="Data/Models/Order.cs" Line="15" Column="18" />
+      <File FileName="Data/Models/OrderDetail.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="onlinestore" expanded="True">
+            <Node name="onlinestore-admin" expanded="True">
+              <Node name="admin" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="ProjectDependencies" expanded="True" />
+                </Node>
+                <Node name="Controllers" expanded="True" />
+                <Node name="Properties" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Dashboard" expanded="True" />
+                  <Node name="Login" expanded="True" />
+                  <Node name="Product" expanded="True" />
+                  <Node name="Shared" expanded="True" />
+                </Node>
+                <Node name="wwwroot" expanded="True">
+                  <Node name="css" expanded="True" />
+                  <Node name="imgs" expanded="True" />
+                  <Node name="js" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Data" expanded="True">
+              <Node name="Infrastructures" expanded="True">
+                <Node name="IRepositories" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="OrderDetail.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="onlinestore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Services" expanded="True">
+              <Node name="IServices" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,47 @@
+﻿@model Data.Models.User;
+
+
+<div class="container">
+    <div class="row justify-content-center" style="margin-top: 20px;">
+        <div class="create-emp-form">
+            <h2>Create user</h2>
+            <form asp-controller="dashboard" asp-action="createnewuser" method="post">
+                <div class="form-horizontal">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <lablel class="control-label">Username:</lablel>
+                        <input class="form-control" type="text" asp-for="Username" name="txtUsername"/>
+                        <span class="text-danger field-validation-valid" asp-validation-for="Username"></span>
+                    </div>
+                    <div class="form-group">
+                        <lablel class="control-label">Fullname:</lablel>
+                        <input class="form-control" type="text" asp-for="FullName" name="txtFullName"/>
+                        <span class="text-danger field-validation-valid" asp-validation-for="FullName"></span>
+                    </div>
+                    <div class="form-group">
+                        <lablel class="control-label">Role:</lablel>
+                        <select name="role">
+                            <option>Manager</option>
+                            <option>Employee</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <lablel class="control-label">Store's address:</lablel>
+                        <select name="store">
+                            @foreach (var store in ViewBag.stores)
+                            {
+                                <option>@store.Address</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        @ViewBag.role
+    </div>
+</div>

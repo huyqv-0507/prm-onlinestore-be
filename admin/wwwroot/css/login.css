@@ -1,0 +1,34 @@
+﻿body {
+    padding: 0;
+    margin: 0,
+}
+.wrapper {
+    text-align: center;
+    border-radius: 10px;
+}
+.login-form {
+    width: 400px;
+    height: 500px;
+    background-color: #E0E5EC;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+.login-form img {
+    width: 150px;
+    margin-top: 50px
+}
+.login-form form {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.form-group label {
+    float: left !important;
+}
+.remember-chk {
+    float: left !important;
+}
+.error-msg {
+    color: red;
+}

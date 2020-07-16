@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    <script src="~/js/dashboard.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" asp-controller="dashboard" asp-action="index"><img id="logo" src="~/imgs/shopping-bag.png"/><span id="shop-name">Online store</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Dashboard" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Setting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="row">
+                <div class="content-left col-2">
+                    <div class="nav-bar navbar">
+                        <ul class="menu-nav navbar-nav">
+                            <li class="func nav-item"><a asp-controller="dashboard" asp-action="orders"><span>Orders</span></a></li>
+                            <li class="func nav-item"><a asp-controller="product" asp-action="products"><span>Products</span></a></li>
+                            <li class="func nav-item"><a><span>Customers</span></a></li>
+                            <li class="func nav-item actived"><a asp-controller="dashboard" asp-action="employees"><span>Employees</span></a></li>
+                            <li class="func nav-item"><a><span>Analytics</span></a></li>
+                            <li class="func nav-item"><a><span>Marketing</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="content-right col-10">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - admin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

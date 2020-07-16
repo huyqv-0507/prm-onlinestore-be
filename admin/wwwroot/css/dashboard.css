@@ -1,0 +1,104 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    height: 100%;
+}
+#logo {
+    width: 30px;
+}
+#shop-name {
+    margin-left: 10px;
+}
+.content-left {
+    height: 705px;
+    background-color: #f7fcff;
+}
+.content-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.content-left ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content-left ul li a {
+    margin-left: 10px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-bar li:hover{
+    background-color: #E0E5EC;
+}
+.content-right {
+}
+.actived {
+    background-color: #E0E5EC;
+}
+.func a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#employee th {
+    border: 1px solid black;
+}
+#employee td{
+    border: 1px solid black;
+}
+#employee th {
+    background-color: #E0E5EC;
+}
+.title-emp-detail {
+    text-align: center;
+    background-color: #E0E5EC;
+}
+.emp-detail {
+    border: .5px solid black;
+}
+.center-emp-detail {
+    text-align: center;
+}
+.btn-emp-new {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
+}
+.btn-emp-new a{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #E0E5EC;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+}
+
+/*
+    Employee Detail
+*/
+.row h2 {
+    margin-top: 15px;
+}
+.detail-emp-form {
+    height: 600px;
+    width: 500px;
+    border-radius: 6px;
+    background-color: #E0E5EC;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+}
+
+
+/*
+    Create new user
+*/
+.create-emp-form {
+    height: 600px;
+    width: 500px;
+    border-radius: 6px;
+    background-color: #E0E5EC;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

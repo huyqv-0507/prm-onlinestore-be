@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_LayoutLoginPage";
+}
+<div class="wrapper">
+    <div class="login-form">
+        <img src="~/imgs/shopping-bag.png" />
+        <h4>Online store</h4>
+        @using (Html.BeginForm("checklogin", "login"))
+        {
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" placeholder="********">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" id="remember">
+                <span>Remember me?</span>
+            </div>
+            <button type="submit" class="btn btn-primary">Log in</button>
+            @Html.ValidationMessage("ERROR", new { @style="color:red;"});
+        }
+    </div>
+    
+</div>
