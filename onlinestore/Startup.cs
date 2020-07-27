@@ -20,7 +20,7 @@ namespace onlinestore
         {
             services.AddControllers();
             services.AddSwaggerGen();
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
             {
                 builder.AllowAnyOrigin()
                        .AllowAnyMethod()
@@ -50,7 +50,7 @@ namespace onlinestore
                 c.RoutePrefix = string.Empty;
                 c.InjectStylesheet("/swagger-ui/custom.css");
             });
-            app.UseCors("MyPolicy");
+            app.UseCors("CorsPolicy");
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

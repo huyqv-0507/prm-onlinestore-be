@@ -15,6 +15,7 @@
   <ItemGroup>
     <Folder Include="DIConfigs\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Vnpay\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />

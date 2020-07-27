@@ -48,6 +48,10 @@ namespace Data.Infrastructures
         {
             return dbSet.Find(id);
         }
+        public virtual T GetByDynamicId(dynamic id)
+        {
+            return dbSet.Find(id);
+        }
 
         public virtual IQueryable<T> GetAll()
         {

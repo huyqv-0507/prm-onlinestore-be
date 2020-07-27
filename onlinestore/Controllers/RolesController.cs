@@ -25,7 +25,6 @@ namespace onlinestore.Controllers
         {
             var roles = _service.getRoles();
             if (roles == null) return BadRequest();
-            _service.Save();
             return Ok(roles);
         }
 
@@ -37,12 +36,13 @@ namespace onlinestore.Controllers
             try
             {
                 _service.AddRole(role);
+
+                _service.Save();
             }
             catch (Exception ex)
             {
                 return BadRequest("Add role failed - " + ex.Message);
             }
-            _service.Save();
             return Ok(role);
         }
         [HttpPut]

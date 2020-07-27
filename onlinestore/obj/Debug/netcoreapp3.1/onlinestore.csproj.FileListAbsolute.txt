@@ -32,7 +32,6 @@
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.AssemblyInfoInputs.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.AssemblyInfo.cs
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.csproj.CoreCompileInputs.cache
-/Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.MvcApplicationPartsAssemblyInfo.cs
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.MvcApplicationPartsAssemblyInfo.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.RazorTargetAssemblyInfo.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.csproj.CopyComplete
@@ -41,3 +40,4 @@
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.dll
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.pdb
 /Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.genruntimeconfig.cache
+/Users/lehuy/Documents/Projects/PRM/onlinestore/onlinestore/obj/Debug/netcoreapp3.1/onlinestore.MvcApplicationPartsAssemblyInfo.cs

@@ -3,10 +3,10 @@
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/bin/Debug/netcoreapp3.1/Data.dll
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/bin/Debug/netcoreapp3.1/Data.pdb
+/Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.csprojAssemblyReference.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfoInputs.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfo.cs
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.csproj.CoreCompileInputs.cache
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.dll
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.pdb
 /Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.genruntimeconfig.cache
-/Users/lehuy/Documents/Projects/PRM/onlinestore/Data/obj/Debug/netcoreapp3.1/Data.csprojAssemblyReference.cache

@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://127.0.0.1:55258",
+      "applicationUrl": "http://sofhse.com",
       "sslPort": 44301
     }
   },

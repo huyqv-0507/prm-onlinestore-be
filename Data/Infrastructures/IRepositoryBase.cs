@@ -10,6 +10,7 @@ namespace Data.Infrastructures
         void Update(T entity);
         void Delete(T entity);
         T GetById(int id);
+        T GetByDynamicId(dynamic id);
         IQueryable<T> GetAll();
         List<T> GetPaged(int page, int pageSize);
     }

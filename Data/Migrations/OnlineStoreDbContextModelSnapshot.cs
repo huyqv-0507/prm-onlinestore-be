@@ -114,10 +114,10 @@ namespace Data.Migrations
 
                     b.Property<string>("Color")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(max)")
                         .IsUnicode(false);
 
                     b.Property<decimal>("Price")
@@ -127,12 +127,13 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasMaxLength(100);
 
-                    b.Property<decimal>("Size")
-                        .HasColumnType("decimal(10,2)");
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasMaxLength(1000);
 
-                    b.Property<string>("Type")
-                        .HasMaxLength(50)
-                        .IsUnicode(false);
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(500);
 
                     b.HasKey("ShoeId");
 

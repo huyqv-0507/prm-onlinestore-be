@@ -94,20 +94,20 @@ namespace Data.Infrastructures
                 entity.Property(prop => prop.ShoesName)
                     .HasMaxLength(100)
                     .IsRequired();
-                entity.Property(prop => prop.Type)
-                    .IsUnicode(false)
-                    .HasMaxLength(50);
+                entity.Property(prop => prop.Title)
+                    .HasMaxLength(500)
+                    .IsRequired();
                 entity.Property(prop => prop.Size)
-                    .IsRequired()
-                    .HasColumnType("decimal(10,2)");
+                    .HasMaxLength(1000)
+                    .IsRequired();
                 entity.Property(prop => prop.Price)
                     .IsRequired()
                     .HasColumnType("decimal(18, 2)");
                 entity.Property(prop => prop.Color)
                     .IsRequired()
-                    .HasMaxLength(20);
+                    .HasColumnType("nvarchar(max)");
                 entity.Property(prop => prop.Description)
-                    .HasMaxLength(500)
+                    .HasColumnType("nvarchar(max)")
                     .IsUnicode(false);
                 entity.Property(prop => prop.BrandId)
                     .IsRequired()
@@ -120,6 +120,7 @@ namespace Data.Infrastructures
                     .HasConstraintName("FK_Shoe_OrderDetails");
             });
             #endregion
+
             #region Store
             modelBuilder.Entity<Store>(entity =>
             {
