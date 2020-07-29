@@ -25,7 +25,8 @@
       <File FileName="Services/IServices/IStoreService.cs" />
       <File FileName="Services/ViewModels/OrderInfo.cs" />
       <File FileName="onlinestore/Vnpay/VnPayLibrary.cs" />
-      <File FileName="onlinestore/Controllers/PaymentController.cs" Line="28" Column="1" />
+      <File FileName="onlinestore/Controllers/PaymentController.cs" Line="47" Column="67" />
+      <File FileName="Data/Infrastructures/IDbFactory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,19 +35,15 @@
             <Node name="onlinestore-admin" expanded="True">
               <Node name="admin" expanded="True" />
             </Node>
-            <Node name="Data" expanded="True">
-              <Node name="Infrastructures" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
             <Node name="onlinestore" expanded="True">
               <Node name="Controllers" expanded="True">
                 <Node name="PaymentController.cs" selected="True" />
               </Node>
               <Node name="DIConfigs" expanded="True" />
               <Node name="Vnpay" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="Services" expanded="True">
-              <Node name="IServices" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
             </Node>

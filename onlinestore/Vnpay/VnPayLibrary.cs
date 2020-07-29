@@ -162,6 +162,7 @@ namespace onlinestore.Vnpay
 
             return ipAddress;
         }
+       
     }
 
     public class VnPayCompare : IComparer<string>

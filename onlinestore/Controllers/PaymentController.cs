@@ -18,7 +18,7 @@ namespace onlinestore.Controllers
         public IActionResult Pay(OrderInfo order)
         {
             //Get Config Info
-            string vnp_Returnurl = "http://127.0.0.1:55257/"; //URL nhan ket qua tra ve 
+            string vnp_Returnurl = "https://vnpay.vn/"; //URL nhan ket qua tra ve 
             string vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html"; //URL thanh toan cua VNPAY 
             string vnp_TmnCode = "K5JOJT5C"; //Ma website
             string vnp_HashSecret = "LNPVWLSLZTLOGAHYIWFKNOQXPAEAPSFI"; //Chuoi bi mat
@@ -41,13 +41,13 @@ namespace onlinestore.Controllers
             }
 
             vnpay.AddRequestData("vnp_CurrCode", "VND");
-            vnpay.AddRequestData("vnp_TxnRef", order.OrderId.ToString());
-            vnpay.AddRequestData("vnp_OrderInfo", order.OrderDescription);
+            vnpay.AddRequestData("vnp_TxnRef", order.OrderId.ToString());//Mã tham chiếu của giao dịch tại hệ thống của merchant. Mã này là duy nhất đùng để phân biệt các đơn hàng gửi sang VNPAY. Không được trùng lặp trong ngày.
+            vnpay.AddRequestData("vnp_OrderInfo", "THANHTOAN");
             vnpay.AddRequestData("vnp_OrderType", "200000"); //default value: other
             vnpay.AddRequestData("vnp_Amount", (order.Amount * 100).ToString());
             vnpay.AddRequestData("vnp_ReturnUrl", vnp_Returnurl);
             vnpay.AddRequestData("vnp_IpAddr", Utils.GetIpAddress());
-            vnpay.AddRequestData("vnp_CreateDate", order.CreatedDate.ToString("yyyyMMddHHmmss"));
+            vnpay.AddRequestData("vnp_CreateDate", DateTime.Now.ToString("yyyyMMddHHmmss"));
             vnpay.AddRequestData("vnp_BankCode", "NCB");
 
             string paymentUrl = vnpay.CreateRequestUrl(vnp_Url, vnp_HashSecret);

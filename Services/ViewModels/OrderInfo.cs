@@ -10,19 +10,7 @@ namespace Services.ViewModels
         /// <summary>
         /// Payment amount
         /// </summary>
-        public decimal Amount { get; set; }
-        public string OrderDescription { get; set; }
-
-        public string BankCode { get; set; }
-
-        /// <summary>
-        /// Order Status
-        /// </summary>
-        public int Status { get; set; }
-        /// <summary>
-        /// Creaed date
-        /// </summary>
-        public DateTime CreatedDate { get; set; }
+        public int Amount { get; set; }
         /// <summary>
         /// VNPAY Transaction Id
         /// </summary>
